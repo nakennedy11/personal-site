@@ -4,3 +4,25 @@ a.anchor {
     top: -100px;
     visibility: hidden;
 }
+
+.tm-navbar-container:not(.uk-navbar-transparent) {
+    background: linear-gradient(to left,
+#28a5f5,
+#1e87f0);
+    background-color:
+rgba(0, 0, 0, 0);
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-attachment: scroll;
+background-image: linear-gradient(to left,
+rgb(40, 165, 245),
+        rgb(30, 135, 240));
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+}
+
+.uk-icon {
+  color: #000
+}
