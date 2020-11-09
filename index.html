@@ -1,26 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css"/>
-    <!-- link rel="stylesheet" href="./style.css" -->
-    <title>Noah Kennedy</title>
-  </head>
-  
-  <body> 
-    <nav class="uk-navbar-container" uk-navbar>
-      <div class="uk-navbar-center">
-        <ul class="uk-navbar-nav">
-          <li><a href="">Home</a></li>
-          <li><a href="">About Me</a></li>
-          <li><a href="">Work Experience</a></li>
-          <li><a href="">Classes</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
+
+  <title>Noah Kennedy</title>
+</head>
+
+<!-- a name="top"/ -->
+
+<body>
+  <nav class="uk-navbar-container" uk-navbar uk-sticky>
+    <div class="uk-navbar-left">
+      <ul class="uk-navbar-nav">
+        <li><a href="" uk-totop uk-scroll>Top</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#experience">Work Experience</a></li>
+        <li><a href="#classes">Classes</a></li>
+      </ul>
+    </div>
+    <div class="uk-navbar-right">
+      <ul class="uk-navbar-nav">
+        <li><a href="">Email</a></li>
+        <li><a href="https://github.com/nakennedy11">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/noahakennedy/">Linkedin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <h2 id="aboutme">About Me</h2>
+  <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.>
+
+  <h2 id="experience">Work Experience</h2>
+  <ul uk-accordion="multiple: true">
+    <li>
+      <a class="uk-accordion-title" href="#">Imprivata Software Engineering Co-op</a>
+      <div class="uk-accordion-content">
+        <p>Lorem ipsum dolor sit amet</p>
       </div>
-    </nav>
-  </body>
+    </li>
+    <li>
+      <a class="uk-accordion-title" href="#">Bain Capital Helpdesk Co-op</a>
+      <div class="uk-accordion-content">
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+    </li>
+  </ul>
+</body>
+
+<h2 id="classes">Classes</h2>
+<ul uk-accordion="multiple: true">
+  <li>
+    <a class="uk-accordion-title" href="#">Software Development</a>
+    <div class="uk-accordion-content">
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+  </li>
+  <li>
+    <a class="uk-accordion-title" href="#">Programming Languages</a>
+    <div class="uk-accordion-content">
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+  </li>
+  <li>
+    <a class="uk-accordion-title" href="#">Database Design</a>
+    <div class="uk-accordion-content">
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+  </li>
+  <li>
+    <a class="uk-accordion-title" href="#">Theory of Computation</a>
+    <div class="uk-accordion-content">
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+  </li>
+  <li>
+    <a class="uk-accordion-title" href="#">Algorithms and Data Structures</a>
+    <div class="uk-accordion-content">
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+  </li>
+  <li>
+    <a class="uk-accordion-title" href="#">Web Development</a>
+    <div class="uk-accordion-content">
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+  </li>
+  <li>
+    <a class="uk-accordion-title" href="#">Computer Systems</a>
+    <div class="uk-accordion-content">
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+  </li>
+  <li>
+    <a class="uk-accordion-title" href="#">Logic and Computation</a>
+    <div class="uk-accordion-content">
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+  </li>
+  <li>
+    <a class="uk-accordion-title" href="#">Discrete Structures</a>
+    <div class="uk-accordion-content">
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+  </li>
+  <li>
+    <a class="uk-accordion-title" href="#">Object Oriented Design</a>
+    <div class="uk-accordion-content">
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+  </li>
+  <li>
+    <a class="uk-accordion-title" href="#">Fundamentals of Computer Science 1 & 2</a>
+    <div class="uk-accordion-content">
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+  </li>
+</ul>
+</body>
 </html>
-
-
