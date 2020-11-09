@@ -1,7 +1,6 @@
-.container {
-    background: lightgrey;
-}
-
-body {
-    background: grey;
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
 }

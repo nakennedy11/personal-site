@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <!-- UIkit CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
-
+  <link rel="stylesheet" href="./style.css"/>
   <!-- UIkit JS -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
@@ -13,116 +13,148 @@
   <title>Noah Kennedy</title>
 </head>
 
-<!-- a name="top"/ -->
-
 <body>
-  <nav class="uk-navbar-container" uk-navbar uk-sticky>
+  <nav class="uk-navbar-container" uk-navbar uk-sticky uk-active>
     <div class="uk-navbar-left">
       <ul class="uk-navbar-nav">
-        <li><a href="" uk-totop uk-scroll>Top</a></li>
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#experience">Work Experience</a></li>
-        <li><a href="#classes">Classes</a></li>
+        <li><a href="" uk-totop uk-scroll></a></li>
+        <li><a href="#aboutme" uk-scroll>About Me</a></li>
+        <li><a href="#experience" uk-scroll>Work Experience</a></li>
+        <li><a href="#classes" uk-scroll>Classes</a></li>
       </ul>
     </div>
     <div class="uk-navbar-right">
       <ul class="uk-navbar-nav">
-        <li><a href="">Email</a></li>
-        <li><a href="https://github.com/nakennedy11">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/noahakennedy/">Linkedin</a></li>
+        <li><a href="mailto:nakennedy11@gmail.com" uk-icon="icon: mail"></a></li>
+        <li><a href="https://github.com/nakennedy11" uk-icon="icon: github"></a></li>
+        <li><a href="https://www.linkedin.com/in/noahakennedy/" uk-icon="icon: linkedin"></a></li>
       </ul>
     </div>
   </nav>
 
+  <div class="uk-container">
+    <p class="uk-text-center uk-text-large"><span>Website Progress</span></p>
+    <progress class="uk-progress" value="50" max="100"></progress>
+  </div>
 
-  <h2 id="aboutme">About Me</h2>
-  <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.>
+  <a class="anchor" id="aboutme"></a>
+  <div class="uk-container">
+    <h2>About Me</h2>
+    <img class="uk-align-right uk-margin-remove-adjacent" src="./assets/me.jpg" width="250" height="250">
+    <p>
+      My name is Noah Kennedy. I am a 21 year old computer science student at Northeastern University.
+      I am currently in my fifth year and set to graduate in December of 2020. Some of my interests include reading (particularly Epic Fantasy),
+      video games, and music.
+    </p>
+  </div>
 
-  <h2 id="experience">Work Experience</h2>
-  <ul uk-accordion="multiple: true">
-    <li>
-      <a class="uk-accordion-title" href="#">Imprivata Software Engineering Co-op</a>
-      <div class="uk-accordion-content">
-        <p>Lorem ipsum dolor sit amet</p>
-      </div>
-    </li>
-    <li>
-      <a class="uk-accordion-title" href="#">Bain Capital Helpdesk Co-op</a>
-      <div class="uk-accordion-content">
-        <p>Lorem ipsum dolor sit amet</p>
-      </div>
-    </li>
+  <hr class="uk-divider-icon" id="test1">
+
+  <a class="anchor" id="experience"></a>
+  <div class="uk-container">
+    <h2>Work Experience</h2>
+    <ul uk-accordion="multiple: true">
+      <li>
+        <a class="uk-accordion-title" href="#">Your Company Here</a>
+        <div class="uk-accordion-content">
+          <p>For a reasonable offer, your company could be at the top of this list!</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Imprivata Software Engineering Co-op</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Bain Capital Helpdesk Co-op</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">D'Amore McKim Computer Operations</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+    </ul>
   </ul>
-</body>
+  </div>
 
-<h2 id="classes">Classes</h2>
-<ul uk-accordion="multiple: true">
-  <li>
-    <a class="uk-accordion-title" href="#">Software Development</a>
-    <div class="uk-accordion-content">
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
-  </li>
-  <li>
-    <a class="uk-accordion-title" href="#">Programming Languages</a>
-    <div class="uk-accordion-content">
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
-  </li>
-  <li>
-    <a class="uk-accordion-title" href="#">Database Design</a>
-    <div class="uk-accordion-content">
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
-  </li>
-  <li>
-    <a class="uk-accordion-title" href="#">Theory of Computation</a>
-    <div class="uk-accordion-content">
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
-  </li>
-  <li>
-    <a class="uk-accordion-title" href="#">Algorithms and Data Structures</a>
-    <div class="uk-accordion-content">
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
-  </li>
-  <li>
-    <a class="uk-accordion-title" href="#">Web Development</a>
-    <div class="uk-accordion-content">
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
-  </li>
-  <li>
-    <a class="uk-accordion-title" href="#">Computer Systems</a>
-    <div class="uk-accordion-content">
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
-  </li>
-  <li>
-    <a class="uk-accordion-title" href="#">Logic and Computation</a>
-    <div class="uk-accordion-content">
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
-  </li>
-  <li>
-    <a class="uk-accordion-title" href="#">Discrete Structures</a>
-    <div class="uk-accordion-content">
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
-  </li>
-  <li>
-    <a class="uk-accordion-title" href="#">Object Oriented Design</a>
-    <div class="uk-accordion-content">
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
-  </li>
-  <li>
-    <a class="uk-accordion-title" href="#">Fundamentals of Computer Science 1 & 2</a>
-    <div class="uk-accordion-content">
-      <p>Lorem ipsum dolor sit amet</p>
-    </div>
-  </li>
-</ul>
+  <hr class="uk-divider-icon">
+
+  <a class="anchor" id="classes"></a>
+  <div class="uk-container">
+    <h2>Classes</h2>
+    <ul uk-accordion="multiple: true">
+      <li>
+        <a class="uk-accordion-title" href="#">Software Development</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Programming Languages</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Database Design</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Theory of Computation</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Algorithms and Data Structures</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Web Development</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Computer Systems</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Logic and Computation</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Discrete Structures</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Object Oriented Design</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+      <li>
+        <a class="uk-accordion-title" href="#">Fundamentals of Computer Science 1 & 2</a>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </li>
+    </ul>
+  </div>
 </body>
 </html>
