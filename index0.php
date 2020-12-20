@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -25,6 +25,7 @@
     </div>
     <div class="uk-navbar-right">
       <ul class="uk-navbar-nav">
+        <li><a class="uk-button uk-button-text" href="./assets/NoahKennedyResume.pdf" target="_blank" style="color: rgb(0, 0, 0)">Résumé</a></li>
         <li><a href="mailto:nakennedy11@gmail.com" target="_blank" uk-icon="icon: mail" style="color: rgb(0, 0, 0)"></a></li>
         <li><a href="https://github.com/nakennedy11" target="_blank" uk-icon="icon: github" style="color: rgb(0, 0, 0)""></a></li>
         <li><a href="https://www.linkedin.com/in/noahakennedy/" target="_blank" uk-icon="icon: linkedin" style="color: rgb(0, 0, 0)""></a></li>
@@ -34,17 +35,15 @@
 
   <div class="uk-container">
     <p class="uk-text-center uk-text-large"><span>Website Progress</span></p>
-    <progress class="uk-progress" value="50" max="100"></progress>
+    <progress class="uk-progress" value="65" max="100"></progress>
   </div>
 
   <a class="anchor" id="aboutme"></a>
   <div class="uk-container">
     <h2>About Me</h2>
-    <img class="uk-align-right uk-margin-remove-adjacent" src="./assets/me.jpg" width="250" height="250">
+    <img class="uk-align-right uk-margin-remove-adjacent" src="./assets/me.jpg" width="250" height="250"/>
     <p>
-      My name is Noah Kennedy. I am a 21 year old computer science student at Northeastern University.
-      I am currently in my fifth year and set to graduate in December of 2020. Some of my interests include reading (particularly Epic Fantasy),
-      video games, and music.
+      <?php echo file_get_contents("./assets/textfiles/aboutme.txt"); ?>
     </p>
   </div>
 
@@ -63,19 +62,23 @@
       <li>
         <a class="uk-accordion-title" href="#">Imprivata Software Engineering Co-op</a>
         <div class="uk-accordion-content">
-          <p><?php echo file_get_contents("html/header.html"); ?></p>
+          <p>
+            <?php echo file_get_contents("./assets/textfiles/imprivata.txt"); ?>
+          </p>
         </div>
       </li>
       <li>
         <a class="uk-accordion-title" href="#">Bain Capital Helpdesk Co-op</a>
         <div class="uk-accordion-content">
-          <p>Lorem ipsum dolor sit amet</p>
+          <p><?php echo file_get_contents("./assets/textfiles/bain.txt"); ?></p>
         </div>
       </li>
       <li>
         <a class="uk-accordion-title" href="#">D'Amore McKim Computer Operations</a>
         <div class="uk-accordion-content">
-          <p>Lorem ipsum dolor sit amet</p>
+          <p>
+            <?php echo file_get_contents("./assets/textfiles/computeroperations.txt"); ?>
+          </p>
         </div>
       </li>
     </ul>

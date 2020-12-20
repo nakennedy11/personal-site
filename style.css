@@ -16,9 +16,9 @@ background-position-y: 0%;
 background-repeat: repeat;
 background-attachment: scroll;
 background-image: linear-gradient(to left,
-rgb(40, 165, 245),
-        rgb(30, 135, 240));
+rgb(40, 135, 245),
         background-size: auto;
+        rgb(30, 155, 240));
         background-origin: padding-box;
         background-clip: border-box;
 }

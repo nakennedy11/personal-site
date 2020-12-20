@@ -1,10 +1,10 @@
-fill in work experience descriptions
-
 fill in class descriptions
   - link to course sites
   - description of some stuff i did
   - link to a project if it exists
 
-change up color scheme
+change up color scheme - not quite such a direct rip of uikit
+
+add a button or something to open/download my resume
 
 

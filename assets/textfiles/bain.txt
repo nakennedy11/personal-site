@@ -1,0 +1,4 @@
+For my first co-op, I was an intern for 6 months as part of End User Services at Bain Capital, providing general IT support for internal employees.
+My main task each day was to take phone calls or chat sessions as they came in and try to resolve any issues that the user might have.
+Outside of active calls I would work on ongoing issues, maintain deployed and available devices, and work with InfoSec or Desktop Engineering
+with any tasks they could use a hand on.

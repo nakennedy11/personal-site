@@ -1,0 +1,11 @@
+In 2019 I did a 6 month internship at Imprivata, an IT security company with a focus on health care organizations.
+I worked as a Software Engineering Co-op on the Identity Governance team which deals with provisioning and administration of user accounts.
+During my tenure there I worked mainly on two different projects. The first was overhauling the load testing of the product.
+I assisted in switching from Visual Studio and Java based load testing to using Locust, an open source, distributed load testing tool
+that uses Python to define the behavior of simulated users. I initially worked on implementing the tool, and extended its built in
+data aggregation to more accurately reflect our testing scenarios. Then I helped convert load tests from the old format and into Python,
+abstracting many of the scenarios in the process. After working on testing, I worked on a customer facing tool to upload their preexisting
+accounts into the product. My project was to add more data logging of the accounts being uploaded through embedded SQL calls, and then
+extend our UI to display these logs to the user. A big concern with this project was whether adding database calls to the tool would
+cause too much of a runtime increase, but I was able to use threading to add in more robust logging without any significant detriment to
+the end user.
